@@ -3,8 +3,8 @@ CREATE USER 'user' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES on *.* to 'user' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 
-CREATE DATABASE MyShuttleDb;
-use MyShuttleDb;
+CREATE DATABASE alm;
+use alm;
 
 CREATE TABLE `employees` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
