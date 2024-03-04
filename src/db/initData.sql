@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS MyShuttleDb;
-use MyShuttleDb;
+CREATE DATABASE IF NOT EXISTS alm;
+use alm;
 
 CREATE TABLE IF NOT EXISTS `employees` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
