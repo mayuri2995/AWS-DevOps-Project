@@ -22,7 +22,7 @@ public class DataAccess
 {
 	// Some database-specific details we'll need
 	private static final String DB_DRIVER = "com.mysql.jdbc.Driver";
-	private static final String DB_URL = "jdbc:mysql://alm.ctsiom60ws11.us-west-2.rds.amazonaws.com:3306/alm";
+	private static final String DB_URL = "jdbc:mysql://35.165.210.246:3306/alm";
 	private static final String DB_USER = "user";
 	private static final String DB_PASS = "password";
 	
